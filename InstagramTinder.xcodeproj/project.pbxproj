@@ -9,12 +9,25 @@
 /* Begin PBXBuildFile section */
 		0DE95CD51CEC47E8006315B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95CD41CEC47E8006315B9 /* main.m */; };
 		0DE95CD81CEC47E8006315B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95CD71CEC47E8006315B9 /* AppDelegate.m */; };
-		0DE95CDB1CEC47E8006315B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95CDA1CEC47E8006315B9 /* ViewController.m */; };
-		0DE95CDE1CEC47E8006315B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE95CDC1CEC47E8006315B9 /* Main.storyboard */; };
 		0DE95CE01CEC47E8006315B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE95CDF1CEC47E8006315B9 /* Assets.xcassets */; };
 		0DE95CE31CEC47E8006315B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE95CE11CEC47E8006315B9 /* LaunchScreen.storyboard */; };
 		0DE95CEE1CEC47E8006315B9 /* InstagramTinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95CED1CEC47E8006315B9 /* InstagramTinderTests.m */; };
 		0DE95CF91CEC47E8006315B9 /* InstagramTinderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95CF81CEC47E8006315B9 /* InstagramTinderUITests.m */; };
+		0DE95D091CEC498A006315B9 /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95D071CEC498A006315B9 /* SwipeView.m */; };
+		0DE95D0E1CEC4E0E006315B9 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95D0C1CEC4E0E006315B9 /* SwipeViewController.m */; };
+		0DE95D121CEC4EBB006315B9 /* SwipeCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95D111CEC4EBB006315B9 /* SwipeCardView.m */; };
+		0DE95D151CEC4EDB006315B9 /* ShowOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95D141CEC4EDB006315B9 /* ShowOverlayView.m */; };
+		0DE95D401CED953C006315B9 /* LikeAndUnlikeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95D3E1CED953C006315B9 /* LikeAndUnlikeTableViewCell.m */; };
+		0DE95D411CED953C006315B9 /* LikeAndUnlikeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DE95D3F1CED953C006315B9 /* LikeAndUnlikeTableViewCell.xib */; };
+		0DE95D471CEDA132006315B9 /* InstagramModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95D461CEDA132006315B9 /* InstagramModel.m */; };
+		0DE95D4F1CEDC541006315B9 /* FTWCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95D4A1CEDC541006315B9 /* FTWCache.m */; };
+		0DE95D501CEDC541006315B9 /* img_def.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DE95D4B1CEDC541006315B9 /* img_def.png */; };
+		0DE95D511CEDC541006315B9 /* img_def@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DE95D4C1CEDC541006315B9 /* img_def@2x.png */; };
+		0DE95D521CEDC541006315B9 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95D4E1CEDC541006315B9 /* NSString+MD5.m */; };
+		0DE95D561CEDCB40006315B9 /* LikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95D541CEDCB40006315B9 /* LikeViewController.m */; };
+		0DE95D571CEDCB40006315B9 /* LikeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DE95D551CEDCB40006315B9 /* LikeViewController.xib */; };
+		0DE95D5B1CEDCB55006315B9 /* DisLikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95D591CEDCB55006315B9 /* DisLikeViewController.m */; };
+		0DE95D5C1CEDCB55006315B9 /* DisLikeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DE95D5A1CEDCB55006315B9 /* DisLikeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +52,6 @@
 		0DE95CD41CEC47E8006315B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DE95CD61CEC47E8006315B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0DE95CD71CEC47E8006315B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0DE95CD91CEC47E8006315B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0DE95CDA1CEC47E8006315B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0DE95CDD1CEC47E8006315B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DE95CDF1CEC47E8006315B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DE95CE21CEC47E8006315B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DE95CE41CEC47E8006315B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +61,31 @@
 		0DE95CF41CEC47E8006315B9 /* InstagramTinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramTinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE95CF81CEC47E8006315B9 /* InstagramTinderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstagramTinderUITests.m; sourceTree = "<group>"; };
 		0DE95CFA1CEC47E8006315B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DE95D061CEC498A006315B9 /* SwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipeView.h; path = ../SwipeView.h; sourceTree = "<group>"; };
+		0DE95D071CEC498A006315B9 /* SwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwipeView.m; path = ../SwipeView.m; sourceTree = "<group>"; };
+		0DE95D0B1CEC4E0E006315B9 /* SwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipeViewController.h; path = ../SwipeViewController.h; sourceTree = "<group>"; };
+		0DE95D0C1CEC4E0E006315B9 /* SwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwipeViewController.m; path = ../SwipeViewController.m; sourceTree = "<group>"; };
+		0DE95D101CEC4EBB006315B9 /* SwipeCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipeCardView.h; path = ../SwipeCardView.h; sourceTree = "<group>"; };
+		0DE95D111CEC4EBB006315B9 /* SwipeCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwipeCardView.m; path = ../SwipeCardView.m; sourceTree = "<group>"; };
+		0DE95D131CEC4EDB006315B9 /* ShowOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowOverlayView.h; path = ../ShowOverlayView.h; sourceTree = "<group>"; };
+		0DE95D141CEC4EDB006315B9 /* ShowOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowOverlayView.m; path = ../ShowOverlayView.m; sourceTree = "<group>"; };
+		0DE95D3D1CED953C006315B9 /* LikeAndUnlikeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LikeAndUnlikeTableViewCell.h; sourceTree = "<group>"; };
+		0DE95D3E1CED953C006315B9 /* LikeAndUnlikeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LikeAndUnlikeTableViewCell.m; sourceTree = "<group>"; };
+		0DE95D3F1CED953C006315B9 /* LikeAndUnlikeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LikeAndUnlikeTableViewCell.xib; sourceTree = "<group>"; };
+		0DE95D451CEDA132006315B9 /* InstagramModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramModel.h; sourceTree = "<group>"; };
+		0DE95D461CEDA132006315B9 /* InstagramModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramModel.m; sourceTree = "<group>"; };
+		0DE95D491CEDC541006315B9 /* FTWCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTWCache.h; sourceTree = "<group>"; };
+		0DE95D4A1CEDC541006315B9 /* FTWCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWCache.m; sourceTree = "<group>"; };
+		0DE95D4B1CEDC541006315B9 /* img_def.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_def.png; sourceTree = "<group>"; };
+		0DE95D4C1CEDC541006315B9 /* img_def@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_def@2x.png"; sourceTree = "<group>"; };
+		0DE95D4D1CEDC541006315B9 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		0DE95D4E1CEDC541006315B9 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		0DE95D531CEDCB40006315B9 /* LikeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LikeViewController.h; sourceTree = "<group>"; };
+		0DE95D541CEDCB40006315B9 /* LikeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LikeViewController.m; sourceTree = "<group>"; };
+		0DE95D551CEDCB40006315B9 /* LikeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LikeViewController.xib; sourceTree = "<group>"; };
+		0DE95D581CEDCB55006315B9 /* DisLikeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisLikeViewController.h; sourceTree = "<group>"; };
+		0DE95D591CEDCB55006315B9 /* DisLikeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisLikeViewController.m; sourceTree = "<group>"; };
+		0DE95D5A1CEDCB55006315B9 /* DisLikeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisLikeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +136,12 @@
 		0DE95CD21CEC47E8006315B9 /* InstagramTinder */ = {
 			isa = PBXGroup;
 			children = (
+				0DE95D421CEDA077006315B9 /* Model */,
+				0DE95D431CEDA077006315B9 /* VIewControllers */,
+				0DE95D441CEDA077006315B9 /* Views */,
+				0DE95D201CEC8F31006315B9 /* LikedAndUnliked */,
 				0DE95CD61CEC47E8006315B9 /* AppDelegate.h */,
 				0DE95CD71CEC47E8006315B9 /* AppDelegate.m */,
-				0DE95CD91CEC47E8006315B9 /* ViewController.h */,
-				0DE95CDA1CEC47E8006315B9 /* ViewController.m */,
-				0DE95CDC1CEC47E8006315B9 /* Main.storyboard */,
 				0DE95CDF1CEC47E8006315B9 /* Assets.xcassets */,
 				0DE95CE11CEC47E8006315B9 /* LaunchScreen.storyboard */,
 				0DE95CE41CEC47E8006315B9 /* Info.plist */,
@@ -118,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				0DE95CD41CEC47E8006315B9 /* main.m */,
+				0DE95D481CEDC541006315B9 /* Cache */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +175,66 @@
 				0DE95CFA1CEC47E8006315B9 /* Info.plist */,
 			);
 			path = InstagramTinderUITests;
+			sourceTree = "<group>";
+		};
+		0DE95D201CEC8F31006315B9 /* LikedAndUnliked */ = {
+			isa = PBXGroup;
+			children = (
+				0DE95D531CEDCB40006315B9 /* LikeViewController.h */,
+				0DE95D541CEDCB40006315B9 /* LikeViewController.m */,
+				0DE95D551CEDCB40006315B9 /* LikeViewController.xib */,
+				0DE95D581CEDCB55006315B9 /* DisLikeViewController.h */,
+				0DE95D591CEDCB55006315B9 /* DisLikeViewController.m */,
+				0DE95D5A1CEDCB55006315B9 /* DisLikeViewController.xib */,
+				0DE95D3D1CED953C006315B9 /* LikeAndUnlikeTableViewCell.h */,
+				0DE95D3E1CED953C006315B9 /* LikeAndUnlikeTableViewCell.m */,
+				0DE95D3F1CED953C006315B9 /* LikeAndUnlikeTableViewCell.xib */,
+			);
+			path = LikedAndUnliked;
+			sourceTree = "<group>";
+		};
+		0DE95D421CEDA077006315B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0DE95D451CEDA132006315B9 /* InstagramModel.h */,
+				0DE95D461CEDA132006315B9 /* InstagramModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0DE95D431CEDA077006315B9 /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DE95D0B1CEC4E0E006315B9 /* SwipeViewController.h */,
+				0DE95D0C1CEC4E0E006315B9 /* SwipeViewController.m */,
+			);
+			path = VIewControllers;
+			sourceTree = "<group>";
+		};
+		0DE95D441CEDA077006315B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0DE95D061CEC498A006315B9 /* SwipeView.h */,
+				0DE95D071CEC498A006315B9 /* SwipeView.m */,
+				0DE95D101CEC4EBB006315B9 /* SwipeCardView.h */,
+				0DE95D111CEC4EBB006315B9 /* SwipeCardView.m */,
+				0DE95D131CEC4EDB006315B9 /* ShowOverlayView.h */,
+				0DE95D141CEC4EDB006315B9 /* ShowOverlayView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0DE95D481CEDC541006315B9 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				0DE95D491CEDC541006315B9 /* FTWCache.h */,
+				0DE95D4A1CEDC541006315B9 /* FTWCache.m */,
+				0DE95D4B1CEDC541006315B9 /* img_def.png */,
+				0DE95D4C1CEDC541006315B9 /* img_def@2x.png */,
+				0DE95D4D1CEDC541006315B9 /* NSString+MD5.h */,
+				0DE95D4E1CEDC541006315B9 /* NSString+MD5.m */,
+			);
+			path = Cache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +340,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DE95D571CEDCB40006315B9 /* LikeViewController.xib in Resources */,
 				0DE95CE31CEC47E8006315B9 /* LaunchScreen.storyboard in Resources */,
+				0DE95D411CED953C006315B9 /* LikeAndUnlikeTableViewCell.xib in Resources */,
+				0DE95D501CEDC541006315B9 /* img_def.png in Resources */,
 				0DE95CE01CEC47E8006315B9 /* Assets.xcassets in Resources */,
-				0DE95CDE1CEC47E8006315B9 /* Main.storyboard in Resources */,
+				0DE95D511CEDC541006315B9 /* img_def@2x.png in Resources */,
+				0DE95D5C1CEDCB55006315B9 /* DisLikeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +371,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DE95CDB1CEC47E8006315B9 /* ViewController.m in Sources */,
+				0DE95D151CEC4EDB006315B9 /* ShowOverlayView.m in Sources */,
+				0DE95D561CEDCB40006315B9 /* LikeViewController.m in Sources */,
+				0DE95D121CEC4EBB006315B9 /* SwipeCardView.m in Sources */,
+				0DE95D401CED953C006315B9 /* LikeAndUnlikeTableViewCell.m in Sources */,
+				0DE95D091CEC498A006315B9 /* SwipeView.m in Sources */,
+				0DE95D521CEDC541006315B9 /* NSString+MD5.m in Sources */,
+				0DE95D471CEDA132006315B9 /* InstagramModel.m in Sources */,
 				0DE95CD81CEC47E8006315B9 /* AppDelegate.m in Sources */,
+				0DE95D4F1CEDC541006315B9 /* FTWCache.m in Sources */,
 				0DE95CD51CEC47E8006315B9 /* main.m in Sources */,
+				0DE95D5B1CEDCB55006315B9 /* DisLikeViewController.m in Sources */,
+				0DE95D0E1CEC4E0E006315B9 /* SwipeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +418,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0DE95CDC1CEC47E8006315B9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0DE95CDD1CEC47E8006315B9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0DE95CE11CEC47E8006315B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

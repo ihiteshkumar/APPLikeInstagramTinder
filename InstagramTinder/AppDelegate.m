@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "SwipeViewController.h"
+#import "LikeViewController.h"
+#import "DisLikeViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,28 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    SwipeViewController *swipeVC = [[SwipeViewController alloc] init];
+    swipeVC.tabBarItem.title = @"Feed";
+    DisLikeViewController *disLikeVC = [[DisLikeViewController alloc] init];
+    disLikeVC.tabBarItem.title = @"DisLiked";
+    LikeViewController *likeVC = [[LikeViewController alloc] init];
+    likeVC.tabBarItem.title = @"Liked";
+    NSArray *myViewControllers = [[NSArray alloc] initWithObjects:disLikeVC,swipeVC,likeVC, nil];
+    self.tabBarController = [[UITabBarController alloc] init];
+    [self.tabBarController setViewControllers:myViewControllers];
+    self.window.rootViewController = self.tabBarController;
+    UITabBarController *tabBar = (UITabBarController *)self.window.rootViewController;
+    UITabBarItem* it;
+    it = [[tabBar.tabBar items] objectAtIndex:0];
+    it.titlePositionAdjustment = UIOffsetMake(-15.0, -15.0);
+    it = [[tabBar.tabBar items] objectAtIndex:1];
+    it.titlePositionAdjustment = UIOffsetMake(0.0, -15.0);
+    it = [[tabBar.tabBar items] objectAtIndex:2];
+    it.titlePositionAdjustment = UIOffsetMake(25.0, -15.0);
+    [tabBar setSelectedIndex:1];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

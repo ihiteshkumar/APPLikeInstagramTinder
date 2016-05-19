@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SwipeViewController.h
 //  InstagramTinder
 //
 //  Created by Hitesh Kumar on 18/05/16.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SwipeViewController : UIViewController<UITabBarControllerDelegate>
 
 
 @end
-
