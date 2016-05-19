@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0DE95CD51CEC47E8006315B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95CD41CEC47E8006315B9 /* main.m */; };
 		0DE95CD81CEC47E8006315B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95CD71CEC47E8006315B9 /* AppDelegate.m */; };
-		0DE95CE01CEC47E8006315B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE95CDF1CEC47E8006315B9 /* Assets.xcassets */; };
 		0DE95CE31CEC47E8006315B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE95CE11CEC47E8006315B9 /* LaunchScreen.storyboard */; };
 		0DE95CEE1CEC47E8006315B9 /* InstagramTinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95CED1CEC47E8006315B9 /* InstagramTinderTests.m */; };
 		0DE95CF91CEC47E8006315B9 /* InstagramTinderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95CF81CEC47E8006315B9 /* InstagramTinderUITests.m */; };
@@ -28,6 +27,7 @@
 		0DE95D571CEDCB40006315B9 /* LikeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DE95D551CEDCB40006315B9 /* LikeViewController.xib */; };
 		0DE95D5B1CEDCB55006315B9 /* DisLikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE95D591CEDCB55006315B9 /* DisLikeViewController.m */; };
 		0DE95D5C1CEDCB55006315B9 /* DisLikeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DE95D5A1CEDCB55006315B9 /* DisLikeViewController.xib */; };
+		0DE95D661CEE062E006315B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE95D651CEE062E006315B9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,6 @@
 		0DE95CD41CEC47E8006315B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DE95CD61CEC47E8006315B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0DE95CD71CEC47E8006315B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0DE95CDF1CEC47E8006315B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DE95CE21CEC47E8006315B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DE95CE41CEC47E8006315B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DE95CE91CEC47E8006315B9 /* InstagramTinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramTinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +85,7 @@
 		0DE95D581CEDCB55006315B9 /* DisLikeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisLikeViewController.h; sourceTree = "<group>"; };
 		0DE95D591CEDCB55006315B9 /* DisLikeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisLikeViewController.m; sourceTree = "<group>"; };
 		0DE95D5A1CEDCB55006315B9 /* DisLikeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisLikeViewController.xib; sourceTree = "<group>"; };
+		0DE95D651CEE062E006315B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,9 +142,9 @@
 				0DE95D201CEC8F31006315B9 /* LikedAndUnliked */,
 				0DE95CD61CEC47E8006315B9 /* AppDelegate.h */,
 				0DE95CD71CEC47E8006315B9 /* AppDelegate.m */,
-				0DE95CDF1CEC47E8006315B9 /* Assets.xcassets */,
 				0DE95CE11CEC47E8006315B9 /* LaunchScreen.storyboard */,
 				0DE95CE41CEC47E8006315B9 /* Info.plist */,
+				0DE95D651CEE062E006315B9 /* Assets.xcassets */,
 				0DE95CD31CEC47E8006315B9 /* Supporting Files */,
 			);
 			path = InstagramTinder;
@@ -344,7 +344,7 @@
 				0DE95CE31CEC47E8006315B9 /* LaunchScreen.storyboard in Resources */,
 				0DE95D411CED953C006315B9 /* LikeAndUnlikeTableViewCell.xib in Resources */,
 				0DE95D501CEDC541006315B9 /* img_def.png in Resources */,
-				0DE95CE01CEC47E8006315B9 /* Assets.xcassets in Resources */,
+				0DE95D661CEE062E006315B9 /* Assets.xcassets in Resources */,
 				0DE95D511CEDC541006315B9 /* img_def@2x.png in Resources */,
 				0DE95D5C1CEDCB55006315B9 /* DisLikeViewController.xib in Resources */,
 			);

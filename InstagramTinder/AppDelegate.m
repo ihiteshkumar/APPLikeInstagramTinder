@@ -40,6 +40,13 @@
     it.titlePositionAdjustment = UIOffsetMake(0.0, -15.0);
     it = [[tabBar.tabBar items] objectAtIndex:2];
     it.titlePositionAdjustment = UIOffsetMake(25.0, -15.0);
+//    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue-Bold" size:14.0f]
+//                                                        } forState:UIControlStateSelected];
+    
+    
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue-Bold" size:14.0f],
+                                                        } forState:UIControlStateNormal];
+    
     [tabBar setSelectedIndex:1];
     [self.window makeKeyAndVisible];
     return YES;
